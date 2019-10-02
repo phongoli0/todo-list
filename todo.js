@@ -10,7 +10,7 @@ display.grid.replaceRecords(list);
 while(true){
 display.todoScreen.execute();
   if (add) addItem(display.grid, newItem);
-  removeItems(entry => !entry.remove);
+  removeItems(display.grid);
   }
 
 }
